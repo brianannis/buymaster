@@ -4,7 +4,7 @@ language: python
 #Use the new container infrastructure
 sudo: false
 
-before_install:
+install:
   - pip install ystockquote
 
 script:
