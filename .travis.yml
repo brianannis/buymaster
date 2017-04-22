@@ -1,0 +1,11 @@
+---
+language: python
+
+#Use the new container infrastructure
+sudo: false
+
+before_install:
+  - pip install ystockquote
+
+script:
+  - python demo.py
