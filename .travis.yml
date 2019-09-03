@@ -6,7 +6,7 @@ language: python
 sudo: false
 
 install:
-  - pip install ystockquote
+  - pip install -r requirements.txt
 
 script:
   - python2 demo.py
