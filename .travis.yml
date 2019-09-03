@@ -2,11 +2,8 @@
 dist: bionic
 language: python
 
-#Use the new container infrastructure
-sudo: false
-
 install:
-  - pip2 install -r requirements.txt
+  - pip2 install -r requirements.txt --user
 
 script:
   - python2 demo.py
